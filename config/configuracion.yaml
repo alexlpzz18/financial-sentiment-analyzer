@@ -17,3 +17,13 @@ entrenamiento:
   epocas: 3
   learning_rate: 0.00002
   batch_size: 16
+
+feeds_rss:
+  reuters_negocios: "https://feeds.reuters.com/reuters/businessNews"
+  expansion: "https://e00-expansion.uecdn.es/rss/portada.xml"
+  cinco_dias: "https://cincodias.elpais.com/rss/cincodias/ultimas_noticias/"
+  el_economista: "https://www.eleconomista.es/rss/rss-bolsa-mercados.php"
+  financial_times: "https://www.ft.com/rss/home"
+  bloomberg_markets: "https://feeds.bloomberg.com/markets/news.rss"
+  investing_es: "https://es.investing.com/rss/news.rss"
+  yahoo_finance_news: "https://finance.yahoo.com/news/rssindex"
