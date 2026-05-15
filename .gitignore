@@ -1,0 +1,26 @@
+# Entorno
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Datos
+data/
+
+# Modelos descargados
+models/
+
+# Variables de entorno y claves API
+.env
+
+# Mac
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Wandb
+wandb/
+
+# HuggingFace cache
+.cache/

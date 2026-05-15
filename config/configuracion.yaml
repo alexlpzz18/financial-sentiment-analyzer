@@ -1,0 +1,19 @@
+modelo:
+  nombre: "ProsusAI/finbert"
+  max_length: 512
+  batch_size: 16
+
+traduccion:
+  idioma_origen: "auto"
+  idioma_destino: "en"
+
+noticias:
+  max_articulos: 100
+  idiomas: ["es", "en", "fr", "de"]
+  paises: ["es", "us", "gb", "de", "fr"]
+
+entrenamiento:
+  semilla: 42
+  epocas: 3
+  learning_rate: 0.00002
+  batch_size: 16
