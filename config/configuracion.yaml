@@ -27,3 +27,8 @@ feeds_rss:
   bloomberg_markets: "https://feeds.bloomberg.com/markets/news.rss"
   investing_es: "https://es.investing.com/rss/news.rss"
   yahoo_finance_news: "https://finance.yahoo.com/news/rssindex"
+
+class_weights:
+  negative: 2.5535
+  neutral: 0.5409
+  positive: 1.3167
